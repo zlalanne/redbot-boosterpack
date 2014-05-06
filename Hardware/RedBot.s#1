@@ -7879,16 +7879,6 @@ Source: Samtec SSW.pdf</description>
 <wire x1="83.82" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <label x="88.9" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="JP4" gate="-1" pin="1"/>
-<wire x1="81.28" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="-3" pin="1"/>
-<wire x1="88.9" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="93.98" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<junction x="88.9" y="99.06"/>
-<label x="96.52" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="L02" class="0">
 <segment>
@@ -7905,11 +7895,6 @@ Source: Samtec SSW.pdf</description>
 <pinref part="JP15" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <label x="88.9" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="-2" pin="1"/>
-<wire x1="81.28" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<label x="96.52" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R02" class="0">
@@ -8188,6 +8173,25 @@ Source: Samtec SSW.pdf</description>
 <pinref part="LAUNCHPAD" gate="G$1" pin="PWM_D2/GPIO_I_D2"/>
 <wire x1="391.16" y1="236.22" x2="393.7" y2="236.22" width="0.1524" layer="91"/>
 <label x="393.7" y="236.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JP4" gate="-1" pin="1"/>
+<wire x1="81.28" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="-3" pin="1"/>
+<wire x1="88.9" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="93.98" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
+<junction x="88.9" y="99.06"/>
+<label x="96.52" y="99.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP4" gate="-2" pin="1"/>
+<wire x1="81.28" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<label x="96.52" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
