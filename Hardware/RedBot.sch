@@ -4703,26 +4703,6 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="10KOHM1/10W1%(0603)" prefix="R" uservalue="yes">
-<description>RES-00824</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0603" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-00824"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Resistor&lt;/b&gt;
 Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</description>
@@ -7870,12 +7850,8 @@ Source: Samtec SSW.pdf</description>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="V_IN1" library="SparkFun-Aesthetics" deviceset="5V" device="" value="V_IN"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k">
-<attribute name="PROD_ID" value="RES-00824"/>
-</part>
-<part name="R10" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k">
-<attribute name="PROD_ID" value="RES-00824"/>
-</part>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="10k"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M05X2" device="NO_SILK" value="M05X2NO_SILK"/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M05X2" device="NO_SILK" value="M05X2NO_SILK"/>
 <part name="U$15" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -7886,9 +7862,7 @@ Source: Samtec SSW.pdf</description>
 <part name="JP15" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="IRF7509" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k">
-<attribute name="PROD_ID" value="RES-00824"/>
-</part>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="10k"/>
 <part name="U$18" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="V_GATE1" library="SparkFun-Aesthetics" deviceset="V_BATT" device="" value="V_GATED"/>
