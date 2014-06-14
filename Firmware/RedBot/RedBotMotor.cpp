@@ -9,6 +9,9 @@ us at the local.
 
 Code developed in Arduino 1.0.5, on an SparkFun Redbot v12.
 ****************************************************************/
+/****************************************************************
+Migrated to Energia by Zack Lalanne
+****************************************************************/
 
 #include "RedBot.h"
 #include <Energia.h>
