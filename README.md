@@ -1,5 +1,7 @@
 # RedBot BoosterPack
 
+![Imgur](http://i.imgur.com/Buku8nl.jpg "RedBot BoosterPack")
+
 This project is a port of Sparkfun's RedBot Mainboard to BoosterPack form to be used with TI LaunchPads + Energia
 
 Please check the GitHub issue tracker for any known hardware/software issues
@@ -10,6 +12,19 @@ Please check the GitHub issue tracker for any known hardware/software issues
 * Made sizes of caps/resistors larger to make soldering easier
 * Most of the logic now runs on 3.3V since the F5529 is 3.3V as well
 * Removed USB connection that was using for programming device, programming is handled on the LaunchPad
+
+## Additional Hardware Support
+One of the great features about the RedBot ecosystem is the number of products SparkFun has come out with that plug into the RedBot. 
+
+The following are currently fully supported:
+* [Magician Chasis (including motors)](https://www.sparkfun.com/products/10825)
+* [RedBot Buzzer](https://www.sparkfun.com/products/12567)
+
+The following are under development
+* [RedBot Sensor - Line Follower](https://www.sparkfun.com/products/11769). Needs software support
+* [RedBot Sensor - Mechanical Bumper](https://www.sparkfun.com/products/11999). Needs software support
+* [RedBot Sensor - Wheel Encoder](https://www.sparkfun.com/products/12617). Needs software support
+* [RedBot Sensor - Accelerometer](https://www.sparkfun.com/products/12589). Issue with v1.0 of board, needs software support
 
 ## Repository Contents
 * **/Firmware/RedBot** - RedBot Energia library
