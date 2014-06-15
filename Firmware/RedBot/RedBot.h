@@ -35,7 +35,6 @@ Migrated to Energia by Zack Lalanne
 // PCINT functionality aliases. Each PCINT has a value set up when the
 //  class member gets created, and the PCINT service routine will handle
 //  the choosing the appropriate response to the interrupt.
-
 #define NOT_IN_USE    0
 #define WHISKER       1
 #define LENCODER      2
@@ -99,5 +98,22 @@ class RedBotMotor
     void rightFwd(byte speed);//  sign has been used to determine direction.
     void rightRev(byte speed);
 };
+
+// This handles the physical wire-whisker type bumper.
+class RedBotBumper
+{
+  public:
+    RedBotBumper(int pin); // Simple constructor; when the bumper gets hit, the
+                           //  motors will stop.
+    RedBotBumper(int pin, void(*functionPointer)(void)); // If the user wishes
+                           //  to do something other than stop on a whisker,
+                           //  bump, they can write a function to do so, and
+                           //  use this constructor.
+    int pressed();        // Check if bumper is pressed
+  private:
+    int pin;
+    void setBumpFunction(int pin, void(*functionPointer)(void));
+};
+
 
 #endif
