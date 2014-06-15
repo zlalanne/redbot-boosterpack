@@ -12,6 +12,7 @@ Please check the GitHub issue tracker for any known hardware/software issues
 * Made sizes of caps/resistors larger to make soldering easier
 * Most of the logic now runs on 3.3V since the F5529 is 3.3V as well
 * Removed USB connection that was using for programming device, programming is handled on the LaunchPad
+* Changed layout from 4 layer to 2 layer
 
 ## Additional Hardware Support
 One of the great features about the RedBot ecosystem is the number of products SparkFun has come out with that plug into the RedBot. 
