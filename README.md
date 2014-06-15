@@ -20,10 +20,10 @@ One of the great features about the RedBot ecosystem is the number of products S
 The following are currently fully supported:
 * [Magician Chasis (including motors)](https://www.sparkfun.com/products/10825)
 * [RedBot Buzzer](https://www.sparkfun.com/products/12567)
+* [RedBot Sensor - Mechanical Bumper](https://www.sparkfun.com/products/11999). Need to put instructions on wiki
 
 The following are under development
 * [RedBot Sensor - Line Follower](https://www.sparkfun.com/products/11769). Needs software support
-* [RedBot Sensor - Mechanical Bumper](https://www.sparkfun.com/products/11999). Needs software support
 * [RedBot Sensor - Wheel Encoder](https://www.sparkfun.com/products/12617). Needs software support
 * [RedBot Sensor - Accelerometer](https://www.sparkfun.com/products/12589). Issue with v1.0 of board, needs software support
 
