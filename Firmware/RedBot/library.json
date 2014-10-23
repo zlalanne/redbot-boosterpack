@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/zlalanne/redbot-boosterpack.git"
   },
-  "src": "Firmware/RedBot",
+  "include": "Firmware/RedBot",
   "examples": "Firmware/RedBot/examples/*/*.ino",
   "frameworks": "energia",
   "platforms": "timsp430"
